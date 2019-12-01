@@ -122,8 +122,13 @@
               "devServerTarget": "img-lazy-load:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "img-lazy-load"
 }
